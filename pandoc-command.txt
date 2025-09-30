@@ -1,0 +1,1 @@
+pandoc narrative_profile.md -N -V papersize:a4paper --from markdown --top-level-division="chapter" --template "eisvogel.tex" --metadata-file=metadata.yaml --pdf-engine=xelatex -o narrative_profile_area_faculty.pdf
